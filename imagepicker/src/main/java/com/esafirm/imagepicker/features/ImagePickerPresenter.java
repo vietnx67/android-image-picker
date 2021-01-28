@@ -5,8 +5,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Looper;
 
-import androidx.fragment.app.Fragment;
-
+import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
 import com.esafirm.imagepicker.R;

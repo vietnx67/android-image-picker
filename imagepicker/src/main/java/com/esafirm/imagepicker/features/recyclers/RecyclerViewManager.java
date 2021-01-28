@@ -3,6 +3,8 @@ package com.esafirm.imagepicker.features.recyclers;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Parcelable;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.esafirm.imagepicker.R;
@@ -23,9 +25,6 @@ import com.esafirm.imagepicker.view.GridSpacingItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import static com.esafirm.imagepicker.features.IpCons.MAX_LIMIT;
 import static com.esafirm.imagepicker.features.IpCons.MODE_MULTIPLE;

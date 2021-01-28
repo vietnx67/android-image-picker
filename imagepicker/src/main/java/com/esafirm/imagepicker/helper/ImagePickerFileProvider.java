@@ -1,6 +1,6 @@
 package com.esafirm.imagepicker.helper;
 
-import androidx.core.content.FileProvider;
+import android.support.v4.content.FileProvider;
 
 import com.esafirm.imagepicker.features.ImagePickerComponentHolder;
 

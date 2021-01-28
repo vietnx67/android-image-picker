@@ -4,8 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.MediaStore;
-
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 import com.esafirm.imagepicker.features.common.ImageLoaderListener;
 import com.esafirm.imagepicker.helper.ImagePickerUtils;

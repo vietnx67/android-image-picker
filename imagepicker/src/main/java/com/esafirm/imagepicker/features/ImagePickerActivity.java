@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
@@ -19,11 +23,6 @@ import com.esafirm.imagepicker.model.Folder;
 import com.esafirm.imagepicker.model.Image;
 
 import java.util.List;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.FragmentTransaction;
 
 public class ImagePickerActivity extends AppCompatActivity implements ImagePickerInteractionListener, ImagePickerView {
 

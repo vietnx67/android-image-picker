@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     final sdk = rootProject.ext.sdk
@@ -43,8 +43,10 @@ artifacts {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "com.github.bumptech.glide:glide:4.11.0"
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
-    implementation "androidx.appcompat:appcompat:1.1.0"
+
+    implementation "com.github.bumptech.glide:glide:4.9.0"
+    implementation "com.android.support:appcompat-v7:$LIB_SUPPORT_VERSION"
+    implementation "com.android.support:recyclerview-v7:$LIB_SUPPORT_VERSION"
+
     testImplementation 'junit:junit:4.13'
 }
